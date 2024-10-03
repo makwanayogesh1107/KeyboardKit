@@ -283,3 +283,23 @@ public extension Emoji {
         EmojiVersion.currentUnavailableEmojisDictionary[char] != nil
     }
 }
+
+#Preview {
+    ZStack {
+        Color.black.opacity(0.1).ignoresSafeArea()
+
+        VStack(alignment: .leading) {
+            Text("Emoji 15.1")
+                .font(.title.bold())
+            EmojiGrid(
+                emojis: EmojiVersion.v15_1.emojis,
+                section: { $0.view },
+                item: { $0.view }
+            )
+            .padding()
+            .background(Color.white)
+            .clipShape(.rect(cornerRadius: 10))
+        }
+        .padding()
+    }
+}

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -rf "Sources/KeyboardKit/_External/EmojiKit/"
+rm -rf "Sources/KeyboardKit/_Dependencies/EmojiKit/"
