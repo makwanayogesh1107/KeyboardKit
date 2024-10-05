@@ -760,7 +760,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/KeyboardKit/KeyboardKitPro.git";
 			requirement = {
-				branch = "8.8-rc2";
+				branch = "yogesh-develop";
 				kind = branch;
 			};
 		};

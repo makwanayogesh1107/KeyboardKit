@@ -112,6 +112,7 @@ public enum KeyboardLocale: String, CaseIterable, Codable, Identifiable {
     case ukrainian = "uk"
     case uzbek = "uz"
     case welsh = "cy"
+    case th = "th"
 }
 
 public extension KeyboardLocale {
@@ -207,6 +208,7 @@ public extension KeyboardLocale {
         case .ukrainian: "ukrainian"
         case .uzbek: "uzbek"
         case .welsh: "welsh"
+        case .th: "thai"
         }
     }
     
