@@ -70,8 +70,6 @@ public extension KeyboardInputViewController {
         completion: @escaping (LicenseRegistrationResult) -> Void
     ) {}
 
-    /// 👑 This is unlocked by KeyboardKit Pro.
-    var hostApplicationBundleId: String? { nil }
 }
 #endif
 
@@ -326,7 +324,6 @@ public struct KeyboardHostApplication {
 /// 👑 This is unlocked by KeyboardKit Pro.
 public protocol KeyboardHostApplicationProvider {
 
-    var hostApplicationBundleId: String? { get }
     var hostApplication: KeyboardHostApplication? { get }
 }
 

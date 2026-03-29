@@ -61,13 +61,6 @@ public class DictationContext: ObservableObject {
     @AppStorage("\(Settings.settingsPrefix)dictatedText", store: .keyboardSettings)
     public var dictatedText = ""
 
-    /// The bundle ID of the app that is using the keyboard.
-    ///
-    /// This is automatically set by the keyboard to let the
-    /// main app navigate back to the keyboard.
-    @AppStorage("\(Settings.settingsPrefix)hostApplicationBundleId", store: .keyboardSettings)
-    public var hostApplicationBundleId: String?
-
     /// Whether dictation has been started by a keyboard.
     ///
     /// This is automatically set by the keyboard to let the

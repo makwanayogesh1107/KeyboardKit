@@ -92,10 +92,6 @@ public class KeyboardContext: ObservableObject {
     public var hasFullAccess: Bool = false
     #endif
 
-    /// The bundle ID of the keyboard host application.
-    @Published
-    public var hostApplicationBundleId: String?
-
     /// The current interface orientation.
     @Published
     public var interfaceOrientation: InterfaceOrientation = .portrait

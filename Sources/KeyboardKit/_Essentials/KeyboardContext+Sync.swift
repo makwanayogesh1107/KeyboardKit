@@ -70,10 +70,6 @@ extension KeyboardContext {
             hasFullAccess = controller.hasFullAccess
         }
 
-        if hostApplicationBundleId != controller.hostApplicationBundleId {
-            hostApplicationBundleId = controller.hostApplicationBundleId
-        }
-
         if interfaceOrientation != controller.orientation {
             interfaceOrientation = controller.orientation
         }
