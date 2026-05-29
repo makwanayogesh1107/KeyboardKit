@@ -1,0 +1,39 @@
+/*
+ Localizable.strings
+ KeyboardKit
+ 
+ Gujarati Localization
+ Copyright © 2025 Daniel Saidi. All rights reserved.
+ */
+
+"locale" = "gu";
+
+"capsLock" = "caps lock";
+"continue" = "ચાલુ રાખો";
+"done" = "થઈ ગયું";
+"emergencyCall" = "Emergency Call";
+"go" = "જાઓ";
+"join" = "જોડાઓ";
+"next" = "આગલું";
+"ok" = "ઠીક છે";
+"return" = "↵";
+"route" = "માર્ગ";
+"search" = "શોધ";
+"searchEmoji" = "ઇમોજી શોધો";
+"send" = "મોકલો";
+"space" = "જગ્યા";
+"switcherAlphabetic" = "અક્ષર";
+"switcherNumeric" = "123";
+"switcherSymbolic" = "#+=" ;
+
+"EmojiCategory.frequent" = "વારંવાર વપરાયેલ";
+"EmojiCategory.smileysAndPeople" = "સ્માઇલીસ અને લોકો";
+"EmojiCategory.animalsAndNature" = "પ્રાણીઓ અને પ્રકૃતિ";
+"EmojiCategory.foodAndDrink" = "ખોરાક અને પીણું";
+"EmojiCategory.activity" = "પ્રવૃત્તિ";
+"EmojiCategory.travelAndPlaces" = "મુસાફરી અને સ્થાનો";
+"EmojiCategory.objects" = "વસ્તુઓ";
+"EmojiCategory.symbols" = "પ્રતીકો";
+"EmojiCategory.flags" = "ધ્વજ";
+
+// For emoji localization, copy & translate the English list.

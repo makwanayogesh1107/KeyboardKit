@@ -1,0 +1,39 @@
+/*
+ Localizable.strings
+ KeyboardKit
+ 
+ Hindi Localization
+ Copyright © 2025 Daniel Saidi. All rights reserved.
+ */
+
+"locale" = "hi";
+
+"capsLock" = "caps lock";
+"continue" = "जारी रखें";
+"done" = "पूर्ण";
+"emergencyCall" = "Emergency Call";
+"go" = "जाएं";
+"join" = "जोड़ें";
+"next" = "अगला";
+"ok" = "ठीक है";
+"return" = "↵";
+"route" = "मार्ग";
+"search" = "खोज";
+"searchEmoji" = "इमोजी खोजें";
+"send" = "भेजें";
+"space" = "स्पेस";
+"switcherAlphabetic" = "अक्षर";
+"switcherNumeric" = "123";
+"switcherSymbolic" = "#+=" ;
+
+"EmojiCategory.frequent" = "अक्सर उपयोग किए जाते हैं";
+"EmojiCategory.smileysAndPeople" = "स्मिली और लोग";
+"EmojiCategory.animalsAndNature" = "जानवर और प्रकृति";
+"EmojiCategory.foodAndDrink" = "भोजन और पेय";
+"EmojiCategory.activity" = "गतिविधि";
+"EmojiCategory.travelAndPlaces" = "यात्रा और स्थान";
+"EmojiCategory.objects" = "वस्तुएं";
+"EmojiCategory.symbols" = "प्रतीक";
+"EmojiCategory.flags" = "झंडे";
+
+// For emoji localization, copy & translate the English list.
