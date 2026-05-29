@@ -23,15 +23,15 @@ public extension Locale {
             .english_canada, .english_gb, .english_us, .estonian, .faroese,
             .filipino, .finnish, .french, .french_canada, .french_belgium,
             .french_switzerland, .georgian, .german, .german_austria, .german_switzerland,
-            .greek, .hawaiian, .hebrew, .hungarian, .icelandic,
-            .inari_sami, .indonesian, .irish, .italian, .kazakh,
-            .kurdish_sorani, .kurdish_sorani_arabic, .kurdish_sorani_pc, .latvian, .lithuanian,
-            .macedonian, .malay, .maltese, .mongolian, .northern_sami,
-            .norwegian, .norwegian_nynorsk, .persian, .polish, .portuguese,
-            .portuguese_brazil, .romanian, .russian, .serbian, .serbian_latin,
-            .slovak, .slovenian, .spanish, .spanish_latinAmerica, .spanish_mexico,
-            .swedish, .swahili, .turkish, .ukrainian, .uzbek,
-            .welsh
+            .greek, .gujarati, .hawaiian, .hebrew, .hindi,
+            .hungarian, .icelandic, .inari_sami, .indonesian, .irish,
+            .italian, .kazakh, .kurdish_sorani, .kurdish_sorani_arabic, .kurdish_sorani_pc,
+            .latvian, .lithuanian, .macedonian, .malay, .maltese,
+            .mongolian, .northern_sami, .norwegian, .norwegian_nynorsk, .persian,
+            .polish, .portuguese, .portuguese_brazil, .romanian, .russian,
+            .serbian, .serbian_latin, .slovak, .slovenian, .spanish,
+            .spanish_latinAmerica, .spanish_mexico, .swedish, .swahili, .turkish,
+            .ukrainian, .uzbek, .welsh
         ]
     }
 }
@@ -77,8 +77,10 @@ public extension Locale {
     static var german_austria: Locale { .withId("de_AT") }
     static var german_switzerland: Locale { .withId("de_CH") }
     static var greek: Locale { .withId("el") }
+    static var gujarati: Locale { .withId("gu") }
     static var hawaiian: Locale { .withId("haw") }
     static var hebrew: Locale { .withId("he_IL") }
+    static var hindi: Locale { .withId("hi") }
     static var hungarian: Locale { .withId("hu") }
     static var icelandic: Locale { .withId("is") }
     static var inari_sami: Locale { .withId("smn") }
@@ -158,8 +160,10 @@ public extension Locale {
         case .german_switzerland: "german_switzerland"
             
         case .greek: "greek"
+        case .gujarati: "gujarati"
         case .hawaiian: "hawaiian"
         case .hebrew: "hebrew"
+        case .hindi: "hindi"
         case .hungarian: "hungarian"
         case .icelandic: "icelandic"
         case .inari_sami: "inari_sami"
